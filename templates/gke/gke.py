@@ -36,7 +36,7 @@ def generate_config(context):
                         'initialNodeCount':
                             propc.get('initialNodeCount'),
                         'initialClusterVersion':
-                            propc.get('initialClusterVersion')
+                            propc.get('initialClusterVersion'),
                     }
             }
     }
@@ -75,6 +75,7 @@ def generate_config(context):
         'monitoringService',
         'clusterIpv4Cidr',
         'addonsConfig',
+        'nodePools',
         'locations',
         'enableKubernetesAlpha',
         'resourceLabels',
@@ -82,7 +83,7 @@ def generate_config(context):
         'legacyAbac',
         'networkPolicy',
         'ipAllocationPolicy',
-        'masterAuthorizedNetworksConfig'
+        'masterAuthorizedNetworksConfig',
         'maintenancePolicy',
         'podSecurityPolicyConfig',
         'privateClusterConfig',
