@@ -85,7 +85,7 @@ def generate_config(context):
         'masterAuthorizedNetworksConfig'
         'maintenancePolicy',
         'podSecurityPolicyConfig',
-        'privateCluster',
+        'privateClusterConfig',
         'masterIpv4CidrBlock'
     ]
 
